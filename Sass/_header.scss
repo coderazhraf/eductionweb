@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.logo {
+  width: 170px;
+  margin-top: 15px;
+}
+.navlink ul {
+  display: flex;
+}
+
+.navlink li a {
+  padding: 8px;
+  font-family: $navFont;
+}
+.navlink a:hover {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+}

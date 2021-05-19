@@ -1,0 +1,16 @@
+@import "./Sass/Typography";
+@import "./Sass/Panner";
+@import "./Sass/Config";
+@import "./Sass/header";
+@import "./Sass/section";
+@import "./Sass/footer";
+
+.nav {
+  font-family: $navFont;
+}
+.main {
+  font-family: $bodyFont;
+}
+.footer {
+  font-family: $heading;
+}
